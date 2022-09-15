@@ -2,12 +2,13 @@
 
 ## Overview 
 
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, it is necessary to employ different techniques to train and evaluate models with unbalanced classes. In order to do this analysis, it has been requested to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
+A CSV from Alphabet Soup, has been provided containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization.
 
-Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, the analysis will include oversampling the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate the performance of these models to recommend on whether they should be used to predict credit risk.
+Using machine learning and neural networks, it is required to use the features in the provided dataset to help create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+
 
 ## Results
-The results of the 6 machine learning models are described as follows:
+The results of the study is described as follows:
 
 ### Naive Random Ovesampling
 
